@@ -41,6 +41,11 @@ public class ConvertingMachine
 	public double parse(String text)
 	{
 		char[] c = new char[text.getBytes().length];
+		
+		if(c.length == 0) {
+			throw new NumberFormatException();
+		}
+		
 		System.out.println("Get Bytes returns: " + text.getBytes().length);
 		text.getChars(0, text.getBytes().length, c, 0);
 		Edge current = searchForEdge(State.START, c[0]);
