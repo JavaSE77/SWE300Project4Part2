@@ -1,6 +1,9 @@
+package xyz.javase.swe300.project4.part2.tests;
 import static org.junit.Assert.*;
 
 import org.junit.Test;
+
+import xyz.javase.swe300.project4.part2.InterimResult;
 
 /**
  * Most of this class is generated code (I didn't write the getters and setters

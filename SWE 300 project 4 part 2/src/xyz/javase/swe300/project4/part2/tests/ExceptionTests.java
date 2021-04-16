@@ -1,9 +1,12 @@
+package xyz.javase.swe300.project4.part2.tests;
 import static org.junit.Assert.assertTrue;
 
 import static org.junit.Assert.*;
 
 import org.junit.Before;
 import org.junit.Test;
+
+import xyz.javase.swe300.project4.part2.ConvertingMachine;
 
 
 public class ExceptionTests {

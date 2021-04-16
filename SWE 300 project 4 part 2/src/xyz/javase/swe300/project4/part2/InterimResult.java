@@ -1,3 +1,4 @@
+package xyz.javase.swe300.project4.part2;
 /**
  * Contains an intermediate result.  This consists of three parts:
  * <ul>
